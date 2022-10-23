@@ -29,7 +29,7 @@ const Question = ({data,index}) => {
                     options.map((option,idx) => <Option key ={idx} data={option} ></Option>)
                 }
                 </div>
-                <p><small>Ans: { correctAnswer}</small></p>
+                
             </div>
             
         </div>
