@@ -1,0 +1,23 @@
+.page{
+    margin:9vh 3vw;
+}
+.card-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+.card-grid img {
+    width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width:580px) {
+    .card-grid{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    
+}

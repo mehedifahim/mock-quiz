@@ -1,0 +1,30 @@
+.card{
+    border-radius: 7px;
+    margin-right: 2vw;
+    padding:1vw;
+    background-color: #bfd9e8;
+}
+
+.card a{
+    padding:1.3vh 4vw;
+    border:none;
+    border-radius: 5px;
+    background-color: #267ae8;
+    color:white;
+    text-decoration: none;
+}
+
+.card a:hover{
+    cursor: pointer;
+    background-color: #4a91ee;
+}
+
+@media screen and (max-width:580px) {
+    .card{
+        border-radius: 7px;
+        margin: 2vh 2vw;
+        padding:1vw;
+        background-color: #bfd9e8;
+    }
+    
+}

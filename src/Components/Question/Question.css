@@ -1,0 +1,18 @@
+.que{
+    display: flex;
+    justify-content: center;
+}
+
+.que-option{
+    border:none;
+    justify-content: center;
+    margin:1vh 4vw;
+    padding: 4vh 2vw;
+    background-color: rgb(56, 58, 64);
+    border-radius: 8px;
+    color: white;
+   
+
+    
+}
+
