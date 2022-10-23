@@ -12,6 +12,15 @@ const Question = ({data,index}) => {
         toast(correctAnswer)
         
     }
+
+    const answerCheck= (ans) =>{
+        if (ans === correctAnswer){
+            toast('correct')
+        }
+        else{
+            toast('wrong')
+        }
+    }
     return (
         <div>
             <div className='que-option'>
@@ -26,7 +35,7 @@ const Question = ({data,index}) => {
 
                 <div>
                 {
-                    options.map((option,idx) => <Option key ={idx} data={option} ></Option>)
+                    options.map((option,idx) => <Option key ={idx} data={option} answerCheck={answerCheck}></Option>)
                 }
                 </div>
                 
