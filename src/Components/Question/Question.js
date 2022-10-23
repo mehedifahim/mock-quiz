@@ -3,7 +3,7 @@ import Option from '../Option/Option';
 
 import './Question.css'
 const Question = ({data,index}) => {
-    const {options} = data
+    const {options, correctAnswer} = data
     return (
         <div>
             <div className='que-option'>
@@ -14,10 +14,10 @@ const Question = ({data,index}) => {
 
                 <div>
                 {
-                    options.map(option => <Option data={option}></Option>)
+                    options.map((option,idx) => <Option key ={idx} data={option} ></Option>)
                 }
                 </div>
-                
+                <p><small>Ans: { correctAnswer}</small></p>
             </div>
             
         </div>

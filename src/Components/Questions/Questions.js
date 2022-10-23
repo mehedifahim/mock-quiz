@@ -14,7 +14,10 @@ const Questions = () => {
         
         {
             questions.map((data,idx) => <Question data={data} key={data.id} index={idx}></Question>)
+            
+            
         }
+        
             
         </div>
     );

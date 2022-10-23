@@ -8,6 +8,7 @@ const Option = ({data}) => {
             
             <input type="radio" name="option"/>
             <label htmlFor="option">{data}</label>
+            
            
         
 
