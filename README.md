@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Mock Quiz Project
 
-Live link:
+Live link: https://dainty-liger-1674b6.netlify.app/
 
 - we build a Mock quiz test website
 - user can check if answer is correct or not

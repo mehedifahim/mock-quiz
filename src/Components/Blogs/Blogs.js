@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Blogs.css'
 const Blogs = () => {
     return (
-        <div>
+        <div className='blog'>
             <h3>What is the purpose of react router?</h3>
             <p>ANs: React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.</p>
 
